@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  top: 2.778vw;
+  left: 6.25vw;
+  width: 2.917vw;
+  height: 2.361vw;
+  z-index: 1000;
+  position: absolute;
+}
+
+.invintation {
+  /* position: absolute; */
+  margin: 0 auto;
+  padding-top: 20px;
+  left: 0;
+  width: 87vw;
+  /* height: calc(90vh - 20px); */
+  font-size: 1.15vw;
+}
+.inv-img-container{
+  position: absolute;
+  padding-top: 120px; 
+  z-index: 500;
+  width: 100vw;
+  background-color: rgba(249, 245, 239, 0.75);
+  box-shadow: 0 0 25px rgb(249, 245, 239), 0 0 25px rgb(249, 245, 239);
+}
+.inv-img {
+  position: relative;
+  width: 87vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;  
+}
+.main_img1{
+  position: absolute;
+  z-index: 100;
+  width: 60vw;
+  top: 35vw;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.main_img2{
+  position: absolute;
+  z-index: 450;
+  top: 80vw;
+  right: 20vw;
+  width: 30vw;  
+}
+.main_img3{
+  position: absolute;
+  z-index: 300;
+  top: 75vw;
+  left: 0;
+  width: 40vw;
+}
+.main_img4{
+  position: absolute;
+  z-index: 400;
+  right: 0;
+  width: 25vw;
+  top: 90vw;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /*background-color: #282c34;*/
+  /*min-height: 100vh;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

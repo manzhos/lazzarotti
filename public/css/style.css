@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@400;600;700&display=swap');
+
+*{font-family: 'Forum', cursive;}
+
+body {
+  margin: 0;
+  padding: 0;
+	background-color: #f4f3f0;
+	color:#3a4148;
+  font-family: 'Forum', cursive;
+}
+
+a {text-decoration: none !important;}
+.und {text-decoration: underline !important;}
+
+.rel {position: relative;}
+.abs {position: absolute;}
+.spacer-10 {width: 100%; height: 10px;}
+.spacer-15 {width: 100%; height: 15px;}
+.spacer-20 {width: 100%; height: 20px;}
+.spacer-30 {width: 100%; height: 30px;}
+.spacer-60 {width: 100%; height: 60px;}
+.spacer-120 {width: 100%; height: 120px;}
+
+/* For screen 960px < */
+@media screen and (min-width: 961px) {
+  .full_width {
+    width: 100%; 
+    position: relative;
+  }
+  .full_reason {
+    width: 100%;
+    overflow: hidden; 
+  }  
+  .m_img {
+      width: 100%;
+      position: relative;
+  }
+  .img_reasons {
+    height: 60vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .img_2 {
+    width: 100%;
+    position: relative;
+}
+  .logo {
+		margin: 0 0 0 70px;
+  }
+  .m_promo {
+		padding: 12vw 0 0 5vw;
+	}
+  .bl {height: 25vw; padding: 9vw 0 0;}
+
+  .reas-col {width: 49%; display: inline-block;}
+  .res {padding: 30px 0;}
+  .res-t {padding: 0 40px!important;}
+
+  .footer-col {width: 24.5%; display: inline-block;}
+}
+
+/* For screen 640 - 960px */
+@media screen and (min-width:641px) and (max-width: 960px){
+  .full_width {
+    width: 100%; 
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  .full_reason {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;    
+  }  
+  .m_img {
+      height: 100vh;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+  }
+  .img_reasons {
+    height: 90vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .img_2 {
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    right: -45vh;
+}
+  .logo {
+    margin: 0 0 0 30px;
+  }
+  .m_promo {padding: 35vw 0 0 5vw;}
+  .bl {height: 50vw; padding: 18vw 0 0;}
+
+  .reas-col {width: 49%; display: inline-block; padding-top: 15vh;}
+  .res {padding: 90px 0;}
+  .res-t {padding: 0 60px!important;}
+
+  .footer-col {width: 49%; display: inline-block;}
+}
+
+/* For screen 0 - 640px */
+@media screen and (max-width: 640px) {
+  .full_width {
+    width: 100%; 
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  .full_reason {
+    width: 100%; 
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  .m_img {
+    height: 100vh;
+    position: absolute;
+    top :0px;
+    right: -65%;
+  }
+  .img_reasons {
+    height: 90vh;
+    position: absolute;
+    bottom: 0;
+    right: -10vw;
+  }  
+  .img_2 {
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    right: -45vh;
+  }
+  .logo {
+    margin: 20px 0 0 0px;
+    width: 70px;
+  }
+  .m_promo {padding: 35vh 0 0 5vw;}
+  .bl {height: 100vw; padding: 39vw 0 0;}
+
+  .reas-col {width: 100%; display: inline-block; padding-top: 5vh;}
+  .res {padding: 15px 0;}
+  .res-t {padding: 0 60px!important;}
+
+  .footer-col {width: 100%;}
+}
+.s-block {width: 100%; display: block;}
+.footer-col {vertical-align: top;}
+
+.promo_btn {
+  background-color: #2481c4;
+  padding: 14px 50px;
+  border: 0px;
+	border-radius: 12px;
+	font-size: 19px;
+}
+
+.promo_btn_w {
+  background-color: white;
+  padding: 14px 50px;
+  border: 0px;
+	border-radius: 12px;
+	font-size: 19px;
+}
+
+.m-70l {margin: 0 0 0 70px;}
+
+.m-10t {margin: 10px 0 0 0;}
+
+.m-20b {margin: 0 0 20px 0;}
+
+.logo_p {
+	filter: alpha(Opacity=75);
+  opacity: 0.75; 
+}
+
+.s-inline {
+  display: inline-block;
+}
+
+.img-p2 {
+	background-image: url(../images/bg-2.jpg);
+	background-position: center;
+	background-repeat: none;
+	background-size: cover;
+}
+
+.p_btn_b {
+  position: absolute;
+  height: 55px; 
+  width: 100vw;
+  background-color: #A01DE3;
+  right: 100%;
+  z-index: 0;
+}
+
+.b-btn {
+  padding: 10px 65px;
+  background-color: #3D8FE0;
+  border: 0px;
+}
+
+.bl1 {background-color: #3182D1;}
+.bl2 {background-color: #3D8FE0;}
+.bl3 {background-color: #51A4F6;}
+.bl4 {background-color: #6CB6FF;}
+
+.faq {background-color: #EDF1F7;}
+.reasons {background: linear-gradient(50deg, #3481C4 0%, #F7847E 60%, #F4F0EF 100%);}
+
+.footer {background-color: #2E2E2E;}
+
+.top {vertical-align: top;}
+.map {width: 100%; height: 280px;}
+
+.m-c {margin: 0 auto;}
+.pads-5 {padding: 0 5px !important;}
+
+/* #### 1. FONTS #### */
+
+.mont {font-family: 'Montserrat', sans-serif !important;}
+.footer-txt {font-size: 14px;}
+.footer-title {font-weight: 700;}
+
+h1 {color: #2481c4 !important; font-size: 120px !important;}
+h2 {font-size: 42px; line-height: 48px;}
+h3 {color: #2481c4 !important; font-size: 40px !important;}
+
+.caps {text-transform: uppercase}
+
+p {
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.ta-c {text-align: center;}
+
+.t-small {font-size: 12px; line-height: 16px!important;}
+
+.w {color:white}
+.b {color:#130D40}
+.bb {color:#2481c4}
+.g {color:#d6b151}
+
+.bold {font-weight: 700!important;}
+.pt-18 {font-size: 18px;}
+.pt-54 {font-size: 54px; line-height: 40px;}
+.pt-70 {font-size: 70px; line-height: 86px;}
+
+.t-center {text-align: center;}
+.t-right {text-align: right;}
+
+.promo-bg {
+	padding: 30px 0 40px 30px;
+	background-color: rgba(244, 243, 240, .75);
+	border: 0px;
+	border-radius: 20px;
+}
+
+.bg-4 {
+	padding: 50px 30px 20px 30px;
+	background-color: rgba(255, 255, 255, .75);
+	border: 0px;
+	border-radius: 20px;
+}
+
+.form-bg {
+	padding: 50px 30px 20px 30px;
+	background-color: rgba(216, 217, 215, .75);
+	border: 0px;
+	border-radius: 20px;
+}
+
+input {
+	text-align: center;
+	border: 0;
+	border-radius: 8px;
+	padding: 8px;
+	display: block;
+	min-width: 330px;
+	margin: 0 auto 25px !important;
+}
+
+.s-ico {
+	font-size: 26px;
+}
+
+.verify-btn {
+	font-size: small;
+	height: 30px;
+	line-height: normal;
+	padding: 0 15px 2px;
+	margin: 0 30px;
+	background-color: #2481c4;
+	color: white;
+
+}
+
+.verify-code {
+	height: 36px;
+	width: 186px;
+	font-size: 13px;
+}
+
+#verify_text {
+	font-size: 10px;
+	color: #1988D6;
+}
