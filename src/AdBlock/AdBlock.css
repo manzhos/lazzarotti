@@ -1,0 +1,79 @@
+
+/* popup */
+.a-popup {
+  position: absolute;
+  inset: 0;
+  z-index: 777;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.a-popup.active { opacity: 1; }
+
+.popup-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 73vw;
+  height: 40vw;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  z-index: 1;  
+}
+.popup-close {
+  position: absolute;
+  top: 1.389vw;
+  right: 1.389vw;
+  cursor: pointer;
+  color: #C19A5B;
+  border: 0;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.833vw;
+  line-height: 0.833vw;
+  text-transform: uppercase;
+  background: none;
+  z-index: 5;  
+}
+.popup-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 26vw;
+  height: 100%;
+  overflow: hidden;
+  background: black;  
+}
+.popup-src {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+}
+.popup-text {
+  position: absolute;
+  top: 0;
+  left: 26vw;
+  right: 0;
+  bottom: 0;
+  padding: 7vw;  
+}
+.f-heading-r {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 4.236vw;
+  line-height: 4.236vw;
+  font-family: 'Playfair Display', serif;;
+  text-transform: uppercase;  
+}
+.f-line {position: relative;}
+.f-paragraf-m {    
+  margin: 3vw 0;
+  color: #1f1f1f;
+}
+.popup-background {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);  
+}
