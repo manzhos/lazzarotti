@@ -1,6 +1,6 @@
 import React, { Component }  from 'react';
 
-//images
+// images
 import logo     from './images/logoLazzSign.svg';
 import invLogo  from './images/logoLazz.svg';
 import mainImg  from './images/work/villa_gracia/villa_grazia_56.jpg';
@@ -9,14 +9,15 @@ import main3    from './images/work/villa_gracia/villa_grazia_67.jpg';
 import main4    from './images/work/villa_gracia/villa_grazia_94-1.jpg';
 
 
-//styles
+// styles
 import './App.css';
-//icons
+// icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
-//ad block
+// components
 import AdBlock from './AdBlock/AdBlock.js'
+import NavMenu from './NavMenu/NavMenu.js'
 
 
 class App extends Component {
@@ -60,6 +61,8 @@ class App extends Component {
         <img src={main4} className="main_img4" alt=""/>      
   
         <AdBlock active={this.state.setAdBlockActive} handleClose={this.handleClose} />
+
+        <NavMenu />
   
       </div>
     );

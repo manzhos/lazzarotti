@@ -1,0 +1,28 @@
+.a-nav {
+  right: 5vw;
+  bottom: 2vw;
+  z-index: 700;
+  position: absolute;  
+}
+
+.nav-menu {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+  box-sizing: border-box;
+  border-collapse: inherit;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+li {list-style: none;}
+
+.is-active{ color: #C19A5B; }
+
+.nav-menu a       {color: #1f1f1f; display: block; transition: color 250ms; text-decoration: none;}
+.nav-menu a:hover {color: #C19A5B; display: block; transition: color 250ms; text-decoration: underline;}

@@ -5,9 +5,13 @@
   inset: 0;
   z-index: 777;
   opacity: 0;
+  /* display: none; */
   transition: opacity 1s;
 }
-.a-popup.active { opacity: 1; }
+.a-popup.active { 
+  opacity: 1; 
+  /* display: block; */
+}
 
 .popup-wrap {
   position: absolute;
