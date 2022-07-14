@@ -1,8 +1,8 @@
 .a-nav {
   right: 5vw;
-  bottom: 2vw;
+  bottom: 3vw;
   z-index: 700;
-  position: absolute;  
+  position: fixed;  
 }
 
 .nav-menu {

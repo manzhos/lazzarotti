@@ -1,0 +1,36 @@
+.img_block {
+  height: auto;
+}
+
+.main_img1{
+  position: absolute;
+  z-index: 100;
+  width: 60vw;
+  top: 35vw;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.main_img2{
+  position: absolute;
+  z-index: 450;
+  top: 80vw;
+  right: 20vw;
+  width: 30vw;  
+}
+.main_img3{
+  position: absolute;
+  z-index: 300;
+  top: 75vw;
+  left: 0;
+  width: 40vw;
+}
+.main_img4{
+  position: absolute;
+  z-index: 400;
+  right: 0;
+  width: 25vw;
+  top: 90vw;
+}

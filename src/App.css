@@ -1,14 +1,16 @@
 .App {
   text-align: center;
+  width: 100vw;
+  overflow-x: hidden;  
 }
 
 .App-logo {
-  top: 2.778vw;
+  top: 2.8vw;
   left: 6.25vw;
-  width: 2.917vw;
+  width: 3vw;
   height: 2.361vw;
   z-index: 700;
-  position: absolute;
+  position: fixed;
 }
 
 .invintation {
@@ -35,38 +37,6 @@
   margin-right: auto;
   text-align: center;  
 }
-.main_img1{
-  position: absolute;
-  z-index: 100;
-  width: 60vw;
-  top: 35vw;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  text-align: center;
-}
-.main_img2{
-  position: absolute;
-  z-index: 450;
-  top: 80vw;
-  right: 20vw;
-  width: 30vw;  
-}
-.main_img3{
-  position: absolute;
-  z-index: 300;
-  top: 75vw;
-  left: 0;
-  width: 40vw;
-}
-.main_img4{
-  position: absolute;
-  z-index: 400;
-  right: 0;
-  width: 25vw;
-  top: 90vw;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -87,6 +57,23 @@
 
 .App-link {
   color: #61dafb;
+}
+
+
+p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1F1F1F;  
+}
+.t-center {
+  text-align: center;
+}
+
+.subtitle {
+  color: #1F1F1F;
+  font-size: small;
+  text-transform: uppercase;  
 }
 
 
