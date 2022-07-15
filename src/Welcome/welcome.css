@@ -1,0 +1,22 @@
+.welcome {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 9999;
+
+}
+.welcome.inactive { 
+  transform: translate(0, -100vh);
+  transition: transform ease-in 1s;
+}
+
+.logo_welcome {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30vw;
+}

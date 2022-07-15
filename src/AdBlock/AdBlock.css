@@ -74,6 +74,8 @@
 .f-paragraf-m {    
   margin: 3vw 0;
   color: #1f1f1f;
+  /* font-size: 14px;
+  line-height: 16px; */
 }
 .popup-background {
   position: fixed;

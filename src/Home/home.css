@@ -1,3 +1,36 @@
+.invintation {
+  margin: 0 auto;
+  padding-top: 20px;
+  left: 0;
+  width: 87vw;
+  font-size: 1.15vw;
+}
+
+.inv-img-container{
+  position: absolute;
+  padding-top: 120px; 
+  z-index: 500;
+  width: 100vw;
+  background-color: rgba(249, 245, 239, 0.75);
+  box-shadow: 0 0 25px rgb(249, 245, 239), 0 0 25px rgb(249, 245, 239);
+}
+.inv-img {
+  position: relative;
+  width: 87vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;  
+  top: 100vh;
+  /* opacity: 0; */
+}
+.inv-img.active { 
+  transform: translate(0, -100vh);
+  /* opacity: 1; */
+  transition: transform ease-in-out 1.8s;
+  /* transition: opacity ease-in-out 0.9s; */
+}
+
+
 .img_block {
   height: 95vw;
 }
@@ -60,7 +93,14 @@
 	100% { transform: rotateY(0deg); }
 }
 
-
+/* Caligraph */
+.subtitle_sign{
+  width: 400px;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
 
 /* lineup class and keyframes */
 .lineUp {

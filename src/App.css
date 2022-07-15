@@ -13,31 +13,6 @@
   position: fixed;
 }
 
-.invintation {
-  /* position: absolute; */
-  margin: 0 auto;
-  padding-top: 20px;
-  left: 0;
-  width: 87vw;
-  /* height: calc(90vh - 20px); */
-  font-size: 1.15vw;
-}
-.inv-img-container{
-  position: absolute;
-  padding-top: 120px; 
-  z-index: 500;
-  width: 100vw;
-  background-color: rgba(249, 245, 239, 0.75);
-  box-shadow: 0 0 25px rgb(249, 245, 239), 0 0 25px rgb(249, 245, 239);
-}
-.inv-img {
-  position: relative;
-  width: 87vw;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;  
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -59,11 +34,15 @@
   color: #61dafb;
 }
 
+::-webkit-scrollbar {
+  width: 0;
+}
 
-p {
+
+.main_txt {
   font-weight: 300;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 24px;
   color: #1F1F1F;  
 }
 .t-center {

@@ -3,7 +3,7 @@ import React from "react";
 import './AdBlock.css';
 
 // images
-import webshop  from '../images/webshop.jpg';
+import webshop from '../images/webshop.jpg';
 
 
 const AdBlock = ({active, handleClose})=>{
