@@ -39,7 +39,7 @@ const Home = () => {
     });
     
     // Initial animation
-    if(scroll>1000 && scroll<1100) {
+    if(scroll>1000 && scroll<1200) {
       setTimeout(() => { span.classList.add('active'); }, 150)
     }
   });
