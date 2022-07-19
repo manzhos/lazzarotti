@@ -26,7 +26,8 @@
 .inv-img.active { 
   transform: translate(0, -100vh);
   /* opacity: 1; */
-  transition: transform ease-in-out 1.8s;
+  transition: transform 0.9s;
+  transition-timing-function: cubic-bezier(0.01, 1, 0.01, 0.2);
   /* transition: opacity ease-in-out 0.9s; */
 }
 

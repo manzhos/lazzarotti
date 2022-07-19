@@ -4,20 +4,22 @@ import '../App.css';
 import './welcome.css';
 
 // images
-import logo_ani from '../images/logoLazz.svg';
+import logo_ani from '../images/logoLazz_W.mp4';
 
 
 const Welcome = () => {
   const [inactive, setInactive] = useState(true);
   useEffect(() => {
-    setTimeout(() => { setInactive(false) }, 2000);
+    setTimeout(() => { setInactive(false) }, 3500);
   }, []);
 
   return (
     <div className={inactive ? "welcome" : "welcome inactive"}> 
       <div style={{position: 'relative', width:'100vw', height:'100vh'}}>
         <div className="logo_welcome">
-          <img src={logo_ani} alt="lazzarotti" /> 
+          <video style={{width:'400px', height:'110px'}} autoplay="autoplay" loop="loop" playsinline="" muted="muted"> 
+            <source src={logo_ani} type="video/mp4" />
+          </video>
         </div>      
       </div>
     </div>
