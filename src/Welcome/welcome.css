@@ -10,7 +10,8 @@
 }
 .welcome.inactive { 
   transform: translate(0, -100vh);
-  transition: transform ease-in 1s;
+  transition: transform 1s;
+  transition-timing-function: cubic-bezier(0.01, 0.01, 0.001, 0.75, 1, 1);
 }
 
 .logo_welcome {
