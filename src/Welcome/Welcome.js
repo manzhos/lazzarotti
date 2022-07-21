@@ -17,7 +17,7 @@ const Welcome = () => {
     <div className={inactive ? "welcome" : "welcome inactive"}> 
       <div style={{position: 'relative', width:'100vw', height:'100vh'}}>
         <div className="logo_welcome">
-          <video style={{width:'400px', height:'110px'}} autoplay="autoplay" loop="loop" playsinline="" muted="muted"> 
+          <video style={{width:'400px', height:'150px'}} autoplay="autoplay" muted="muted"> 
             <source src={logo_ani} type="video/mp4" />
           </video>
         </div>      
