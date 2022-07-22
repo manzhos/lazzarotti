@@ -22,7 +22,7 @@ const Home = () => {
   const handleScroll = () => {setScroll(window.scrollY)};
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
-    setTimeout(() => { setActive(true) }, 4000);
+    setTimeout(() => { setActive(true) }, 7000);
   });
   const topImg2 = (80 - scroll/75) + 'vw';
   const topImg3 = (75 - scroll/55) + 'vw';

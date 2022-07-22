@@ -27,7 +27,7 @@ class App extends Component {
     this.setState();
     setTimeout(() => {
       this.setState({ setAdBlockActive: true });
-    }, 7000)
+    }, 10500)
   }
 
   handleClose = () => {

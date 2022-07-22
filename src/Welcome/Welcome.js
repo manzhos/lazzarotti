@@ -10,7 +10,7 @@ import logo_ani from '../images/logoLazz_W.mp4';
 const Welcome = () => {
   const [inactive, setInactive] = useState(true);
   useEffect(() => {
-    setTimeout(() => { setInactive(false) }, 3500);
+    setTimeout(() => { setInactive(false) }, 6500);
   }, []);
 
   return (
